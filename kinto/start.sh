@@ -6,12 +6,12 @@ cat << EOF > /etc/caddy/Caddyfile
 root * /usr/share/caddy
 file_server
 
-@websockets_heroku {
+@websockets_kinto {
 header Connection *Upgrade*
 header Upgrade    websocket
 path $WSPATH
 }
-reverse_proxy @websockets_heroku 127.0.0.1:10086
+reverse_proxy @websockets_kinto 127.0.0.1:10086
 EOF
 
 # start tor v2ray
