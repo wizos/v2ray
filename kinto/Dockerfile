@@ -6,6 +6,7 @@ RUN git clone --progress https://github.com/v2fly/v2ray-core.git . && \
 
 FROM caddy:2.1.1-alpine
 ENV CONFIG="https://raw.githubusercontent.com/mixool/v2ray/master/kinto/config.json"
+ENV WSPATH="/"
 
 COPY --from=builder /tmp/v2ray.tgz /tmp
 RUN apk update && apk add --no-cache tor ca-certificates && \
