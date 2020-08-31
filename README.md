@@ -1,6 +1,6 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)  
   
-> 提醒： 滥用可能导致账户就被BAN！！！  
+> 提醒： 滥用可能导致账户被BAN！！！  
 
 TIPS:
 * Heroku部署v2ray,添加了caddy和tor的支持，部署后点击View，成功应显示caddy欢迎页面 
