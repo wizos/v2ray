@@ -9,7 +9,7 @@
                         "id": "3dcda15b-755a-48fe-b012-a4cac2aa9197",
                         "alterId": 64
                     }
-                ],	                ],
+                ],
                 "disableInsecureEncryption": true
             },
             "streamSettings": {"network": "ws","wsSettings": {"path": "/"}}
